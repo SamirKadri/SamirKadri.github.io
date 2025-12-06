@@ -4,9 +4,8 @@ description: NA
 url: https://SamirKadri.github.io/
 baseurl: ''
 email: samir.kadri@mail.utoronto.ca
-cover: https://bchiang7.github.io/img/og.png
-logo: https://bchiang7.github.io/img/emojis/technologist.png
-resume: https://bchiang7.github.io/resume.pdf
+logo: https://SamirKadri.github.io/img/emojis/mech.png
+resume: https://SamirKadri.github.io/resume.pdf
 social:
   - title: email
     url: mailto:samir.kadri@mail.utoronto.ca
