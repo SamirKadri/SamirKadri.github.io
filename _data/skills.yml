@@ -1,10 +1,10 @@
-CAD Tools:
+CAD-Tools:
   - item: SolidWorks
   - item: CATIA
   - item: Fusion 360
   - item: AutoCAD
 
-CFD and FEA Tools:
+Analysis-Tools:
   - item: Siemens STAR-CCM+
   - item: COMSOL Multiphysics
   - item: ANSYS Fluent
@@ -14,7 +14,7 @@ Languages:
   - item: Python
   - item: MATLAB
 
-Other Skills:
+Other:
   - item: HPC Workflows
   - item: Lotus Suspension Analysis -  SHARK
   - item: MSC Adams
