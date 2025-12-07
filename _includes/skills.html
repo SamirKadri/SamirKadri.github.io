@@ -6,32 +6,32 @@
       <div class="skillz__category">
         <div class="skillz__category__label">CAD Tools</div>
         <ul>
-          {% for CAD Tools in site.data.skills.CAD Tools %}
-          <li class="skillz__category__item">{{CAD Tools.item}}</li>
+          {% for cad in site.data.skills.cad %}
+          <li class="skillz__category__item">{{cad.item}}</li>
           {% endfor %}
         </ul>
       </div>
       <div class="skillz__category">
-        <div class="skillz__category__label">Frameworks</div>
+        <div class="skillz__category__label">CFD and FEA Tools</div>
         <ul>
-          {% for framework in site.data.skills.frameworks %}
-          <li class="skillz__category__item">{{framework.item}}</li>
+          {% for analysis in site.data.skills.analysis %}
+          <li class="skillz__category__item">{{analysis.item}}</li>
           {% endfor %}
         </ul>
       </div>
       <div class="skillz__category">
-        <div class="skillz__category__label">Tools</div>
+        <div class="skillz__category__label">Languages</div>
         <ul>
-          {% for tool in site.data.skills.tools %}
-          <li class="skillz__category__item">{{tool.item}}</li>
+          {% for languages in site.data.skills.languages %}
+          <li class="skillz__category__item">{{languages.item}}</li>
           {% endfor %}
         </ul>
       </div>
       <div class="skillz__category">
-        <div class="skillz__category__label">Design</div>
+        <div class="skillz__category__label">Other Skiils</div>
         <ul>
-          {% for thing in site.data.skills.design %}
-          <li class="skillz__category__item">{{thing.item}}</li>
+          {% for other in site.data.skills.other %}
+          <li class="skillz__category__item">{{other.item}}</li>
           {% endfor %}
         </ul>
       </div>
