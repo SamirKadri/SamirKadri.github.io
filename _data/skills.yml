@@ -1,20 +1,20 @@
-CAD-Tools:
+cad:
   - item: SolidWorks
   - item: CATIA
   - item: Fusion 360
   - item: AutoCAD
 
-Analysis-Tools:
+analysis:
   - item: Siemens STAR-CCM+
   - item: COMSOL Multiphysics
   - item: ANSYS Fluent
   - item: ANSYS Mechanical
 
-Languages:
+languages:
   - item: Python
   - item: MATLAB
 
-Other:
+other:
   - item: HPC Workflows
   - item: Lotus Suspension Analysis -  SHARK
   - item: MSC Adams
