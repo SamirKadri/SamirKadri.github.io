@@ -1,25 +1,21 @@
-- name: Surf Videos
-  url: https://github.com/bchiang7/Surf-Videos
-  code: https://github.com/bchiang7/Surf-Videos
-  description: Small React project created during an interview process to browse and search surf videos via the YouTube API.
+- name: University of Toronto Formula Racing
+  url: https://fsaeutoronto.ca/
+  code: https://fsaeutoronto.ca/
+  description: "I was part oh UofT's Formual Student team, where I designed and manufactured critical vehicle systems, specializing in high-performance suspension and aerodynamics components. By utilizing topology optimization, I developed rear suspension uprights specifically for in-hub motor integration and 5-axis CNC manufacturability, supported by detailed engineering drawings and GD&T standards. I also designed the front wing and nosecone assembly, incorporating optimized mounts that contributed to a 23.3% overall performance increase. My work extended into hands-on production, where I manufactured composite aerodynamic devices using 3D-printed and CNC foam molds. To ensure peak performance, the components were validated through professional-grade testing, including 4-post rig analysis at Multimatic and wind tunnel sessions at Ford Motors"
   used:
-    - thing: JavaScript
-    - thing: React
-    - thing: React Router
-    - thing: Axios
-    - thing: YouTube API
+    - thing: SolidWorks
+    - thing: Ansys Mechanical
+    - thing: GD&T 
+    - thing: STAR-CCM+
+    - thing: HPC Worflows
 
-- name: Halcyon Theme
-  url: https://bchiang7.github.io/halcyon-site/
-  code: https://github.com/bchiang7/halcyon-site
-  description: A minimal, dark theme for Sublime Text, Atom, VS Code, and more published to <a class="underline-link" href="https://packagecontrol.io/packages/Halcyon%20Theme">Package Control</a>, <a class="underline-link" href="https://atom.io/themes/halcyon-syntax">Atom Package Manager</a>, <a class="underline-link" href="https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode">Visual Studio Marketplace</a>, and <a class="underline-link" href="https://www.npmjs.com/package/hyper-halcyon-theme">NPM</a>.
+- name: SparkJet Actuator Model Development and Optimisation for Flow Reattachment
+  url: https://turbulence.mie.utoronto.ca/
+  code: https://turbulence.mie.utoronto.ca/
+  description: "My research and development work involves the advancement of active flow control through the development of a high-fidelity CFD model for Spark-Jet actuators. This model is designed to accurately simulate complex phenomena, including peak jet velocity, localized temperature rise, and the critical dynamics of flow reattachment. To handle the intensive computational requirements of these simulations, I execute complex COMSOL Multiphysics models on High-Performance Computing (HPC) clusters. This approach not only ensures a high degree of model accuracy but also maximizes computational efficiency when analyzing the fluid-thermal interactions essential for aerospace applications."
   used:
-    - thing: Gatsby
-    - thing: Sublime Text
-    - thing: Atom
-    - thing: VS Code
-    - thing: iTerm2
-    - thing: Hyper
+    - thing: COMSOL Multiphysics
+    - thing: HPC Workflows
 
 - name: Lonely Planet DBMS
   url: https://github.com/bchiang7/CS3200-Project
