@@ -1,5 +1,5 @@
 - name: University of Toronto Formula Racing - FSAE
-  url: https://fsaeutoronto.ca/ 
+  url: https://fsaeutoronto.ca/
   code: https://fsaeutoronto.ca/
   description: "I was part oh UofT's Formual Student team, where I designed and manufactured critical vehicle systems, specializing in high-performance suspension and aerodynamics components. By utilizing topology optimization, I developed rear suspension uprights specifically for in-hub motor integration and 5-axis CNC manufacturability, supported by detailed engineering drawings and GD&T standards. I also designed the front wing and nosecone assembly, incorporating optimized mounts that contributed to a 23.3% overall performance increase. My work extended into hands-on production, where I manufactured composite aerodynamic devices using 3D-printed and CNC foam molds. To ensure peak performance, the components were validated through professional-grade testing, including 4-post rig analysis at Multimatic and wind tunnel sessions at Ford Motors"
   used:
