@@ -41,8 +41,8 @@
     - thing: Tribology
 
 - name: VJTI Racing e-BAJA
-  url: https://github.com/crowddj/crowddj-react
-  code: https://github.com/crowddj/crowddj-react
+  url: https://www.vjtiracing.in/
+  code: https://www.vjtiracing.in/
   description: |
     During my tenure with the racing team, I led the end-to-end development of the vehicle's suspension package, bridging the gap between complex kinematic simulation and precision manufacturing. I began by establishing the vehicle's hardpoints and helped design the front uprights and steering components, utilizing Lotus Shark for suspension geometry optimization and Solidworks for robust 3D modeling.
     <br><br>
@@ -56,8 +56,8 @@
     - thing: GD&T
 
 - name: AeroVJTI - AIAA Design/Build/Fly
-  url: http://quiet-dusk-89245.herokuapp.com/
-  code: https://github.com/bchiang7/DemoWebApp
+  url: https://www.aerovjti.co.in/
+  code: https://www.aerovjti.co.in/
   description: >
     To maximize the performance of a competition radio-controlled aircraft, I spearheaded the design and manufacturing of high-strength, lightweight airframe components utilizing advanced topology optimization.
   used:
