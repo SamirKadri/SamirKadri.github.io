@@ -21,8 +21,8 @@
     - thing: Fluid Mechanics 
 
 - name: Python based CFD Solver for 2-D Lid Driven Cavity
-  url: https://github.com/bchiang7/CS3200-Project
-  code: https://github.com/bchiang7/CS3200-Project
+  url: Assignment4_SamirKadri_1011619303.pdf
+  code: Assignment4_SamirKadri_1011619303.pdf
   description: >
     Driven by the complexities of fluid behavior, I developed a high-fidelity CFD solver in Python to simulate steady, incompressible flow within various cavity geometries. The core of the solver implements the SIMPLE algorithm for pressure-velocity coupling, utilizing Rhie-Chow interpolation on a collocated, finite-volume grid to ensure numerical stability and prevent pressure checkerboarding. To handle the intensive computational requirements of the resulting sparse systems, I integrated a GMRES linear solver paired with an Algebraic Multigrid (AMG) preconditioner, enabling efficient convergence even as mesh density increased to over 100,000 cells. Beyond the classic lid-driven cavity benchmark, I extended the solver’s capabilities to handle complex internal geometries, such as a stepped cavity, using a fluid-masking approach to enforce no-slip conditions on internal boundaries. The project was rigorously validated against established literature as well as COMSOL Multiphysics simulations, with a comprehensive mesh convergence study confirming the solver's accuracy in capturing thin shear layers and secondary recirculation zones at high Reynolds numbers.
   used:
@@ -32,8 +32,8 @@
     - thing: Heat Transfer
 
 - name: Generalized Stochastic Microcontact Model for Friction Coefficient
-  url: https://bchiang7.github.io/Redesign-myNEU/
-  code: https://github.com/bchiang7/Redesign-myNEU
+  url: FYPThesis.pdf
+  code: FYPThesis.pdf
   description: >
     During my research at the Ohio State University Gear and Power Transmission Research Laboratory (GearLab), I developed a generalized 3D stochastic microcontact model on MATLAB to predict the mechanical power loss of helical gears and elliptical contacts. Moving beyond the limitations of traditional 2D models, which are often restricted to symmetric spur gear contacts, I implemented a 3D framework that calculates losses across the entire contact region of the gear tooth, accounting for the unique complexities of helical gears where the line of action is not parallel to the tooth edge. By integrating the Greenwood-Williamson model with McCool’s parameterization for surface roughness, I expanded the model’s domain to include elliptical contacts, such as those found in crowned discs and rollers, using Hertzian formulation to address dual-axis curvature. The solver determines an effective friction coefficient by combining elastohydrodynamic lubrication (EHL) and boundary lubrication components via Tallian’s load-sharing approach, effectively modeling friction across the entire Stribeck curve. My work was rigorously validated against measured experimental datasets for both spur and helical gear sets, confirming that the 3D model offers significantly higher accuracy than previous iterations in capturing the physics of mixed-regime lubrication.
   used:
