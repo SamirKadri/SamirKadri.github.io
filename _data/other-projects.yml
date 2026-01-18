@@ -2,7 +2,7 @@
   url: https://fsaeutoronto.ca/
   code: https://fsaeutoronto.ca/
   description: >
-    I was part of UofT's Formula Student team, where I designed and manufactured critical vehicle systems, specializing in high-performance suspension and aerodynamics components. By utilizing topology optimization, I developed rear suspension uprights specifically for in-hub motor integration and 5-axis CNC manufacturability, supported by detailed engineering drawings and GD&T standards. I also designed the front wing and nosecone assembly, incorporating optimized mounts that contributed to a 23.3% overall performance increase. My work extended into hands-on production, where I manufactured composite aerodynamic devices using 3D-printed and CNC foam molds. To ensure peak performance, the components were validated through professional-grade testing, including 4-post rig analysis at Multimatic and wind tunnel sessions at Ford Motors.
+    As part of UofT's Formual Student team, where I designed and manufactured critical vehicle systems, specializing in high-performance suspension and aerodynamics components. By utilizing topology optimization, I developed rear suspension uprights specifically for in-hub motor integration and 5-axis CNC manufacturability, supported by detailed engineering drawings and GD&T standards. I also designed the front wing and nosecone assembly, incorporating optimized mounts that contributed to a 23.3% overall performance increase. My work extended into hands-on production, where I manufactured composite aerodynamic devices using 3D-printed and CNC foam molds. To ensure peak performance, the components were validated through professional-grade testing, including 4-post rig analysis at Multimatic and wind tunnel sessions at Ford Motors.
   used:
     - thing: SolidWorks
     - thing: Ansys Mechanical
@@ -14,7 +14,7 @@
   url: https://turbulence.mie.utoronto.ca/
   code: https://turbulence.mie.utoronto.ca/
   description: >
-    My research and development work at the Turbulence Research Lab involves the advancement of active flow control through the development of a high-fidelity CFD model for Spark-Jet actuators. This model is designed to accurately simulate complex phenomena, including peak jet velocity, localized temperature rise, and the critical dynamics of flow reattachment. To handle the intensive computational requirements of these simulations, I execute complex COMSOL Multiphysics models on High-Performance Computing (HPC) clusters.
+    My research and development work at the Turbulence Research Lab involves the advancement of active flow control through the development of a high-fidelity CFD model for Spark-Jet actuators. This model is designed to accurately simulate complex phenomena, including peak jet velocity, localized temperature rise, and the critical dynamics of flow reattachment. To handle the intensive computational requirements of these simulations, I execute complex COMSOL Multiphysics models on High-Performance Computing (HPC) clusters. This approach not only ensures a high degree of model accuracy but also maximizes computational efficiency when analyzing the fluid-thermal interactions essential for aerospace applications.
   used:
     - thing: COMSOL Multiphysics
     - thing: HPC Workflows
@@ -24,8 +24,7 @@
   url: https://github.com/bchiang7/CS3200-Project
   code: https://github.com/bchiang7/CS3200-Project
   description: >
-    Driven by the complexities of fluid behavior, I developed a high-fidelity CFD solver in Python to simulate steady, incompressible flow within various cavity geometries. The core of the solver implements the SIMPLE algorithm for pressure-velocity coupling, utilizing Rhie-Chow interpolation on a collocated, finite-volume grid to ensure numerical stability.
-  used:
+    Driven by the complexities of fluid behavior, I developed a high-fidelity CFD solver in Python to simulate steady, incompressible flow within various cavity geometries. The core of the solver implements the SIMPLE algorithm for pressure-velocity coupling, utilizing Rhie-Chow interpolation on a collocated, finite-volume grid to ensure numerical stability and prevent pressure checkerboarding. To handle the intensive computational requirements of the resulting sparse systems, I integrated a GMRES linear solver paired with an Algebraic Multigrid (AMG) preconditioner, enabling efficient convergence even as mesh density increased to over 100,000 cells. Beyond the classic lid-driven cavity benchmark, I extended the solver’s capabilities to handle complex internal geometries—such as a stepped cavity—using a fluid-masking approach to enforce no-slip conditions on internal boundaries. The project was rigorously validated against established literature as well as COMSOL Multiphysics simulations, with a comprehensive mesh convergence study confirming the solver's accuracy in capturing thin shear layers and secondary recirculation zones at high Reynolds numbers.
     - thing: Python
     - thing: COMSOL Multiphysics
     - thing: Fluid Mechanics
@@ -35,7 +34,7 @@
   url: https://bchiang7.github.io/Redesign-myNEU/
   code: https://github.com/bchiang7/Redesign-myNEU
   description: >
-    During my research at the Ohio State University Gear and Power Transmission Research Laboratory (GearLab), I developed a generalized 3D stochastic microcontact model on MATLAB to predict the mechanical power loss of helical gears and elliptical contacts.
+    During my research at the Ohio State University Gear and Power Transmission Research Laboratory (GearLab), I developed a generalized 3D stochastic microcontact model on MATLAB to predict the mechanical power loss of helical gears and elliptical contacts. Moving beyond the limitations of traditional 2D models, which are often restricted to symmetric spur gear contacts, I implemented a 3D framework that calculates losses across the entire contact region of the gear tooth, accounting for the unique complexities of helical gears where the line of action is not parallel to the tooth edge. By integrating the Greenwood-Williamson model with McCool’s parameterization for surface roughness, I expanded the model’s domain to include elliptical contacts, such as those found in crowned discs and rollers, using Hertzian formulation to address dual-axis curvature. The solver determines an effective friction coefficient by combining elastohydrodynamic lubrication (EHL) and boundary lubrication components via Tallian’s load-sharing approach, effectively modeling friction across the entire Stribeck curve. My work was rigorously validated against measured experimental datasets for both spur and helical gear sets, confirming that the 3D model offers significantly higher accuracy than previous iterations in capturing the physics of mixed-regime lubrication.
   used:
     - thing: MATLAB
     - thing: Tribology
@@ -44,7 +43,7 @@
   url: https://www.vjtiracing.in/
   code: https://www.vjtiracing.in/
   description: |
-    During my tenure with the racing team, I led the end-to-end development of the vehicle's suspension package, bridging the gap between complex kinematic simulation and precision manufacturing. I began by establishing the vehicle's hardpoints and helped design the front uprights and steering components, utilizing Lotus Shark for suspension geometry optimization and Solidworks for robust 3D modeling.
+    During my tenure with the racing team, I led the end-to-end development of the vehicle's suspension package, bridging the gap between complex kinematic simulation and precision manufacturing. I began by establishing the vehicle's hardpoints and helped design the front uprights and steering components, utilizing Lotus Shark for suspension geometry optimization and Solidworks for robust 3D modeling. To ensure the components could withstand the loads from high-performance racing and harsh terrain while also maintaining minimal mass, Finite Element Analysis simulations within ANSYS was used to validate structural integrity. Transitioning from design to production, I machined various suspension components, ensuring every part met strict tolerances for on-track performance. Beyond the technical scope, I served as a Senatorial member and Sponsorship Head, where I managed a team of over 140 members, coordinated logistics for three national competitions, and personally secured 40% of the team's annual budget through strategic sponsor relations.
     <br><br>
     <small>🏆 Runner-Up in Technology and Innovation & Ranked 12th in Design at e-BAJA India 2023 🏆</small>
     <br>
@@ -59,8 +58,7 @@
   url: https://www.aerovjti.co.in/
   code: https://www.aerovjti.co.in/
   description: >
-    To maximize the performance of a competition radio-controlled aircraft, I spearheaded the design and manufacturing of high-strength, lightweight airframe components utilizing advanced topology optimization.
-  used:
+    To maximize the performance of a competition radio-controlled aircraft, I spearheaded the design and manufacturing of high-strength, lightweight airframe components utilizing advanced topology optimization. By leveraging ANSYS for structural simulation, and SolidWorks & Fusion360 for complex 3D modeling, I engineered fuselage and wing structures that achieved an optimal strength-to-weight ratio, ensuring the aircraft could withstand aerodynamic loading while remaining highly efficient. Furthermore, I addressed a critical logistical constraint by designing an innovative foldable wing mechanism, which enabled the aircraft to navigate confined taxiing spaces and adhere to strict competition dimensional requirements.
     - thing: Fusion360
     - thing: Solidworks
     - thing: Ansys Mechanical
