@@ -24,7 +24,8 @@
   url: https://github.com/bchiang7/CS3200-Project
   code: https://github.com/bchiang7/CS3200-Project
   description: >
-    Driven by the complexities of fluid behavior, I developed a high-fidelity CFD solver in Python to simulate steady, incompressible flow within various cavity geometries. The core of the solver implements the SIMPLE algorithm for pressure-velocity coupling, utilizing Rhie-Chow interpolation on a collocated, finite-volume grid to ensure numerical stability and prevent pressure checkerboarding. To handle the intensive computational requirements of the resulting sparse systems, I integrated a GMRES linear solver paired with an Algebraic Multigrid (AMG) preconditioner, enabling efficient convergence even as mesh density increased to over 100,000 cells. Beyond the classic lid-driven cavity benchmark, I extended the solver’s capabilities to handle complex internal geometries—such as a stepped cavity—using a fluid-masking approach to enforce no-slip conditions on internal boundaries. The project was rigorously validated against established literature as well as COMSOL Multiphysics simulations, with a comprehensive mesh convergence study confirming the solver's accuracy in capturing thin shear layers and secondary recirculation zones at high Reynolds numbers.
+    Driven by the complexities of fluid behavior, I developed a high-fidelity CFD solver in Python to simulate steady, incompressible flow within various cavity geometries. The core of the solver implements the SIMPLE algorithm for pressure-velocity coupling, utilizing Rhie-Chow interpolation on a collocated, finite-volume grid to ensure numerical stability and prevent pressure checkerboarding. To handle the intensive computational requirements of the resulting sparse systems, I integrated a GMRES linear solver paired with an Algebraic Multigrid (AMG) preconditioner, enabling efficient convergence even as mesh density increased to over 100,000 cells. Beyond the classic lid-driven cavity benchmark, I extended the solver’s capabilities to handle complex internal geometries, such as a stepped cavity, using a fluid-masking approach to enforce no-slip conditions on internal boundaries. The project was rigorously validated against established literature as well as COMSOL Multiphysics simulations, with a comprehensive mesh convergence study confirming the solver's accuracy in capturing thin shear layers and secondary recirculation zones at high Reynolds numbers.
+  used:
     - thing: Python
     - thing: COMSOL Multiphysics
     - thing: Fluid Mechanics
@@ -59,6 +60,7 @@
   code: https://www.aerovjti.co.in/
   description: >
     To maximize the performance of a competition radio-controlled aircraft, I spearheaded the design and manufacturing of high-strength, lightweight airframe components utilizing advanced topology optimization. By leveraging ANSYS for structural simulation, and SolidWorks & Fusion360 for complex 3D modeling, I engineered fuselage and wing structures that achieved an optimal strength-to-weight ratio, ensuring the aircraft could withstand aerodynamic loading while remaining highly efficient. Furthermore, I addressed a critical logistical constraint by designing an innovative foldable wing mechanism, which enabled the aircraft to navigate confined taxiing spaces and adhere to strict competition dimensional requirements.
+  used:  
     - thing: Fusion360
     - thing: Solidworks
     - thing: Ansys Mechanical
