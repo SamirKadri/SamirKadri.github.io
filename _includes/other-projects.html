@@ -3,31 +3,14 @@
   <div class="section__content">
     {% for project in site.data.other-projects %}
     <div class="project">
-      <div class="project__carousel" id="carousel-{{ forloop.index }}">
-        <div class="carousel__slides">
-          {% for image in project.images %}
-          <div class="carousel__slide {% if forloop.first %}active{% endif %}">
-            <img src="{{ image }}" alt="{{ project.name }}">
-          </div>
-          {% endfor %}
-        </div>
-        {% if project.images.size > 1 %}
-        <button class="carousel__btn carousel__btn--prev" aria-label="Previous slide">&lt;</button>
-        <button class="carousel__btn carousel__btn--next" aria-label="Next slide">&gt;</button>
-        {% endif %}
+      <div class="project__name">
+        <a href="{{project.url}}" target="_blank" class="arrow-link">{{project.name}}</a>
       </div>
-      <div class="project__content">
-        <div class="project__name">
-          <a href="{{project.url}}" target="_blank" class="arrow-link">{{project.name}}</a>
-        </div>
-        <div class="project__description">
-          <p>{{project.description}}</p>
-        </div>
-        <div class="project__used">
-          {% for item in project.used %}
-          <span class="project__used__item">{{item.thing}}</span>
-          {% endfor %}
-        </div>
+      <p>{{project.description}}</p>
+      <div class="project__used">
+        {% for item in project.used %}
+        <span class="project__used__item">{{item.thing}}</span>
+        {% endfor %}
       </div>
     </div>
     {% endfor %}
