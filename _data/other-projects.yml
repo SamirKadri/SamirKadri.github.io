@@ -9,6 +9,9 @@
     - thing: GD&T 
     - thing: Siemens STAR-CCM+
     - thing: HPC Workflows
+  images:
+    - /img/featured/v2/v2.png
+    - /img/featured/v2/v2-desktop.png
 
 - name: SparkJet Actuator Model Development and Optimisation for Flow Reattachment
   url: https://turbulence.mie.utoronto.ca/
@@ -19,6 +22,9 @@
     - thing: COMSOL Multiphysics
     - thing: HPC Workflows
     - thing: Fluid Mechanics 
+  images:
+    - /img/featured/v2/v2.png
+    - /img/featured/v2/v2-desktop.png 
 
 - name: Python based CFD Solver for 2-D Lid Driven Cavity
   url: Assignment4_SamirKadri_1011619303.pdf
@@ -30,6 +36,9 @@
     - thing: COMSOL Multiphysics
     - thing: Fluid Mechanics
     - thing: Heat Transfer
+  images:
+    - /img/featured/v2/v2.png
+    - /img/featured/v2/v2-desktop.png
 
 - name: Generalized Stochastic Microcontact Model for Friction Coefficient
   url: FYPThesis.pdf
@@ -39,6 +48,9 @@
   used:
     - thing: MATLAB
     - thing: Tribology
+  images:
+    - /img/featured/v2/v2.png
+    - /img/featured/v2/v2-desktop.png
 
 - name: VJTI Racing e-BAJA
   url: https://www.vjtiracing.in/
@@ -54,6 +66,9 @@
     - thing: SolidWorks
     - thing: Ansys Mechanical
     - thing: GD&T
+  images:
+    - /img/featured/v2/v2.png
+    - /img/featured/v2/v2-desktop.png
 
 - name: AeroVJTI - AIAA Design/Build/Fly
   url: https://www.aerovjti.co.in/
@@ -64,3 +79,6 @@
     - thing: Fusion360
     - thing: Solidworks
     - thing: Ansys Mechanical
+  images:
+    - /img/featured/v2/v2.png
+    - /img/featured/v2/v2-desktop.png
